@@ -24,7 +24,7 @@ COPY --from=builder /app/node_modules ./node_modules
 # Copy application code
 COPY src/ ./src/
 COPY scripts/ ./scripts/
-# COPY data/ ./data/
+COPY data/ ./data/
 COPY package.json ./
 
 # Health check
