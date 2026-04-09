@@ -41,7 +41,7 @@ temp/
 secrets/
 
 # Data files (keep local)
-data/
+# data/
 private/
 
 # OS
